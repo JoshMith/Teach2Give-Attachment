@@ -1,0 +1,21 @@
+body, html {
+    height: 100%; /* Ensure the body takes full height */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: hsl(212, 45%, 89%); /* Optional: Add a background color */
+
+.centered-box {
+    width: 300px; /* Set a fixed width */
+    padding: 20px; /* Add padding inside the box */
+    border: 2px solid #fcf8f8; /* Add a border */
+    border-radius: 10px; /* Optional: Rounded corners */
+    background-color: #fff; /* Background color of the box */
+    text-align: center; /* Center text inside the box */
+    font-family: Arial, sans-serif; /* Optional: Set font */
+}
+img {
+    border-radius: 10px;
+    width: 300px;
+}
