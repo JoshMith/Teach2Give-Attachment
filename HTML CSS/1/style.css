@@ -5,7 +5,7 @@ body, html {
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
     background-color: hsl(212, 45%, 89%); /* Optional: Add a background color */
-
+}
 .centered-box {
     width: 300px; /* Set a fixed width */
     padding: 20px; /* Add padding inside the box */
