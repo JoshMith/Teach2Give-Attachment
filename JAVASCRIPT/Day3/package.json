@@ -1,11 +1,11 @@
 {
-  "name": "javascript",
+  "name": "day3",
   "version": "1.0.0",
-  "main": "basics.js",
+  "main": "variables.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node basics.js",
-    "dev:start": "nodemon basics.js"
+    "dev": "node variables.js",
+    "dev:start": "nodemon variables.js"
   },
   "type": "module",
   "keywords": [],
@@ -13,7 +13,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "chalk": "^5.4.1",
     "nodemon": "^3.1.9"
   }
 }
