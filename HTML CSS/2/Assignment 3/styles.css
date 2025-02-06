@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+body{
+    background-color: #ffffff;
+}
+
+nav{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    /* margin-right: 30px; */
+    padding: 30px;
+    padding-left: 17px;
+
+}
+nav .menu{
+    display: flex;
+}
+.menu button{
+    font-family: "Outfit", serif;
+    background-color: #ffffff;
+    border: 0;
+    color: rgb(85, 84, 84);
+}
+.auth button{
+    font-family: "Outfit", serif;
+    background-color: #ffffff;
+    color: rgb(85, 84, 84);
+
+}
+#login{
+    border: 0;
+}
+#register{
+    margin-left: 30px;
+    background-color: #ffffff;
+    border: 2px solid rgb(172, 169, 169);
+    border-radius: 10px;
+    padding: 7px;
+    padding-left: 13px;
+    padding-right: 13px;
+
+}
+.menu div{
+    margin-left: 40px;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content-container{
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.make{
+    font-weight: bold; /* or 700 */
+    font-size: 70px; /* Pixels */
+    width: 450px;
+    height: 250px;
+    font-family: "Outfit", serif;
+    display: flex;
+    flex-flow: column wrap;
+    line-height: 70px;
+
+    /* border: 2px dotted black; */
+}
+
+.content{
+    width: 370px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Outfit", serif;
+    /* border: 2px dotted black; */
+
+}
+
+.btn-learn{
+    margin-top: 45px;
+    width: 470px;
+    /* border: 2px dotted black; */
+}
+.btn-learn button{
+    font-family: "Outfit", serif;
+    padding: 15px;
+    width: 140px;
+    color: white;
+    background-color: rgb(20, 20, 20);
+    border: 0;
+    border-radius: 13px;
+}
+.icons{
+    margin-top: 67px;
+    width: 450px;
+    /* border: 2px dotted black; */
+    display: flex;
+    align-items: center;
+    /* margin-right: 60px; */
+}
+
+.icons svg{
+    padding: 10px;
+}
