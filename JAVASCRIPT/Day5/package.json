@@ -1,0 +1,18 @@
+{
+  "name": "day5",
+  "version": "1.0.0",
+  "main": "booleans.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node booleans.js",
+    "dev:start": "nodemon booleans.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

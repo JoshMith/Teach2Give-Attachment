@@ -1,0 +1,19 @@
+{
+  "name": "day4",
+  "version": "1.0.0",
+  "main": "strings.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node strings.js",
+    "dev:start": "nodemon strings.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "Josh",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "nodemon": "^3.1.9"
+  }
+}
