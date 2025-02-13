@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+body {
+    font-family: "Outfit", serif;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(221, 248, 239);
+}
+.product {
+    border: 1px solid #ddd;
+    background-color:rgb(250, 246, 231);
+    /* box-shadow: 1 2 rgb(197, 195, 195);  */
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline-block;
+
+    /* width: 200px;} */
+}
+.product h3 {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.product p {
+    font-size: 14px;
+}
