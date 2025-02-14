@@ -1,0 +1,20 @@
+{
+  "name": "day9",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node script.js",
+    "dev:start": "nodemon script.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "josh",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "json-server": "^1.0.0-beta.3",
+    "nodemon": "^3.1.9"
+  }
+}
