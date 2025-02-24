@@ -1,0 +1,19 @@
+{
+  "name": "day13-asynchronous-programming",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon script.js",
+    "dev2":"nodemon "
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3",
+    "nodemon": "^3.1.9"
+  }
+}

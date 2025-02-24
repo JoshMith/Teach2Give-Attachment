@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshop</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>THE BOOKSHOP</h1>
+            <div class="filters">
+                <!-- Genre Filter -->
+                <label for="filterDropdown">Filter by Genre:</label>
+                <select id="filterDropdown">
+                    <option value="all">All Genres</option>
+                    <option value="fiction">Fiction</option>
+                    <option value="dystopian">Dystopian</option>
+                    <option value="romance">Romance</option>
+                    <option value="fantasy">Fantasy</option>
+                    <option value="adventure">Adventure</option>
+                    <option value="epic poetry">Epic Poetry</option>
+                </select>
+
+                <!-- Year Filter -->
+                <label for="yearFilter">Filter by Year:</label>
+                <select id="yearFilter">
+                    <option value="all">All Years</option>
+                    <option value="1800-1900">1800-1900</option>
+                    <option value="1901-1950">1901-1950</option>
+                    <option value="1951-2000">1951-2000</option>
+                    <option value="2001-present">2001-Present</option>
+                </select>
+            </div>
+
+            <!-- Cart Button -->
+            <button id="cartButton">
+                <img src="shopping-cart.png" alt="cart" width="20">
+                Cart <span id="cartCount">0</span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Books Section -->
+    <div id="bookDetails"></div>
+
+    <!-- Cart Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>My Cart</h2>
+            <div id="cartContent">
+                <p>Your cart is empty</p>
+            </div>
+            <div class="foot">
+                <h3>Total:</h3>
+                <h2 id="totalPrice">$0.00</h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
