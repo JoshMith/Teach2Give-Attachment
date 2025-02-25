@@ -1,8 +1,10 @@
-//Initialize a New TypeScript Project 
-npm init -y 
+//Initialize a New TypeScript Project
+npm init -y
 
 //Install TypeScript and Required Dependencies
 npm install --save-dev typescript vitest nodemon prettier tsd vite-tsconfig-paths @total-typescript/exercise-cli @total-typescript/helpers cross-fetch npm-run-all
+npm install --save-dev typescript nodemon
+npm install typescript nodemon
 
 //Generate a tsconfig.json Configuration File
 npx tsc --init
