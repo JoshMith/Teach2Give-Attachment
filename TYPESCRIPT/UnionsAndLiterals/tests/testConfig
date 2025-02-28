@@ -1,0 +1,18 @@
+# 1. Install Jest and TypeScript Support
+npm install --save-dev jest ts-jest @types/jest
+
+# 2. Create a configuration file named jest.config.js at the same level as package.json by running:
+npx ts-jest config:init
+
+# 3. This command will create a basic Jest configuration file. Edit the file to include the following code:
+module.exports = {
+  preset: "ts-jest",
+  testEnvironment: "node"
+};
+
+# 5. Create a folder named tests at the same level as package.json and place your test files under this folder. Test files should follow the naming convention {file_name}.test.ts.
+
+# 6. You can now run your tests using:
+npm test
+# or
+npx jest

@@ -1,23 +1,4 @@
-// Define types
-interface Book {
-    id: string;
-    title: string;
-    author: string;
-    genre: string;
-    year: number;
-    pages: number;
-    publisher: string;
-    price: number;
-    image: string;
-    description: string;
-}
-
-interface CartItem {
-    id: string;
-    title: string;
-    price: number;
-    image: string;
-}
+import {Book, CartItem} from "./types";
 
 let booksData: Book[] = [];
 let cart: CartItem[] = [];
@@ -26,7 +7,7 @@ let totalPrice: number = 0;
 // Fetch books from the API
 async function fetchBooks(): Promise<void> {
     try {
-        const response = await fetch("http://localhost:3000/books");
+        const response : Response = await fetch("http://localhost:3000/books");
         booksData = await response.json();
         displayBooks(booksData);
         populateYearFilter();

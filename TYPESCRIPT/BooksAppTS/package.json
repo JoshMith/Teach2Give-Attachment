@@ -11,7 +11,7 @@
     "serve": "vite",
     "preview": "vite preview"
   },
-  "type": "module",
+  "type": "commonjs",
   "keywords": [],
   "author": "",
   "license": "ISC",
