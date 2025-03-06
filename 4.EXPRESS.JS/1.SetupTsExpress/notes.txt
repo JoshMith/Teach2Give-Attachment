@@ -1,0 +1,4 @@
+//install these
+//npm i express dotenv cors
+//npm i -D typescript @types/express ts-node @types/node nodemon @types/cors
+//Always add a -D when you are adding something fo the devDependencies

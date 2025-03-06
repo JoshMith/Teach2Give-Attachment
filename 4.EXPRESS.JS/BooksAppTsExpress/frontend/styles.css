@@ -1,0 +1,215 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Book container */
+#bookDetails {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Individual book card */
+.book {
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.book:hover {
+    transform: scale(1.05);
+}
+
+/* Book title */
+.book h2 {
+    color: #343a40;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+/* Book image */
+.book img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Warning message */
+#warningMsg {
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Book details */
+.book p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Strong text inside book details */
+.book p strong {
+    color: #333;
+}
+
+/* Style the navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px 20px;
+    color: white;
+}
+
+/* Style the dropdown filter container */
+.filter-container {
+    display: flex;
+    gap: 15px;
+}
+#filterDropdown {
+    margin-right: 30px;
+}
+/* Style dropdowns */
+nav label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+nav select {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Style the cart button */
+#cartButton {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#cartButton:hover {
+    background-color: #e65c00;
+}
+
+/* Style the cart count */
+#cartCount {
+    background-color: white;
+    color: #ff6600;
+    padding: 3px 8px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.head {
+    background-color: goldenrod;
+    border-radius: 3px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    border-top: 1px solid;
+}
+
+.buy {
+    padding: 10px 30px;
+    background-color: #333;
+    color: whitesmoke;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+}
+
+.cart-img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.remove {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 12px;
+    font-size: 14px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-left: auto; /* Push button to the right */
+}
+
+.remove:hover {
+    background-color: darkred;
+}

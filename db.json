@@ -1,0 +1,174 @@
+{
+    "christians": [
+        {
+            "id": 1,
+            "name": "John Mwangi",
+            "birth_date": "1990-05-12",
+            "baptism_date": "1991-06-15",
+            "confirmation_date": "2005-07-20",
+            "marriage_details": {
+                "status": "Married",
+                "spouse_name": "Mary Wanjiru",
+                "marriage_date": "2015-08-22"
+            },
+            "contact": {
+                "phone": "+254712345678",
+                "email": "johnmwangi@example.com"
+            },
+            "address": "Nyeri, Kenya"
+        },
+        {
+            "id": 2,
+            "name": "Jane Wambui",
+            "birth_date": "1995-02-10",
+            "baptism_date": "1996-04-25",
+            "confirmation_date": "2010-09-30",
+            "marriage_details": {
+                "status": "Single",
+                "spouse_name": null,
+                "marriage_date": null
+            },
+            "contact": {
+                "phone": "+254711223344",
+                "email": "janewambui@example.com"
+            },
+            "address": "Nairobi, Kenya"
+        },
+        {
+            "id": 3,
+            "name": "Peter Kamau",
+            "birth_date": "1988-11-23",
+            "baptism_date": "1989-12-15",
+            "confirmation_date": "2004-10-05",
+            "marriage_details": {
+                "status": "Married",
+                "spouse_name": "Agnes Njeri",
+                "marriage_date": "2012-05-18"
+            },
+            "contact": {
+                "phone": "+254700987654",
+                "email": "peterkamau@example.com"
+            },
+            "address": "Murang'a, Kenya"
+        },
+        {
+            "id": 4,
+            "name": "Lucy Ndungu",
+            "birth_date": "2000-08-15",
+            "baptism_date": "2001-09-20",
+            "confirmation_date": "2017-06-12",
+            "marriage_details": {
+                "status": "Single",
+                "spouse_name": null,
+                "marriage_date": null
+            },
+            "contact": {
+                "phone": "+254722334455",
+                "email": "lucyndungu@example.com"
+            },
+            "address": "Eldoret, Kenya"
+        },
+        {
+            "id": 5,
+            "name": "David Kariuki",
+            "birth_date": "1992-07-05",
+            "baptism_date": "1993-08-10",
+            "confirmation_date": "2007-12-03",
+            "marriage_details": {
+                "status": "Married",
+                "spouse_name": "Grace Muthoni",
+                "marriage_date": "2018-09-25"
+            },
+            "contact": {
+                "phone": "+254733556677",
+                "email": "davidkariuki@example.com"
+            },
+            "address": "Thika, Kenya"
+        },
+        {
+            "id": 6,
+            "name": "Ann Muthoni",
+            "birth_date": "1998-04-18",
+            "baptism_date": "1999-05-25",
+            "confirmation_date": "2015-08-19",
+            "marriage_details": {
+                "status": "Single",
+                "spouse_name": null,
+                "marriage_date": null
+            },
+            "contact": {
+                "phone": "+254720112233",
+                "email": "annmuthoni@example.com"
+            },
+            "address": "Kisumu, Kenya"
+        },
+        {
+            "id": 7,
+            "name": "Samuel Otieno",
+            "birth_date": "1993-07-09",
+            "baptism_date": "1994-08-14",
+            "confirmation_date": "2009-10-29",
+            "marriage_details": {
+                "status": "Married",
+                "spouse_name": "Evelyne Akinyi",
+                "marriage_date": "2020-03-15"
+            },
+            "contact": {
+                "phone": "+254701334455",
+                "email": "samuelotieno@example.com"
+            },
+            "address": "Kisii, Kenya"
+        },
+        {
+            "id": 8,
+            "name": "Beatrice Njeri",
+            "birth_date": "1985-12-30",
+            "baptism_date": "1986-11-20",
+            "confirmation_date": "2001-02-15",
+            "marriage_details": {
+                "status": "Widowed",
+                "spouse_name": "Joseph Mwangi",
+                "marriage_date": "2003-07-10"
+            },
+            "contact": {
+                "phone": "+254733778899",
+                "email": "beatricenjeri@example.com"
+            },
+            "address": "Mombasa, Kenya"
+        },
+        {
+            "id": 9,
+            "name": "Josephat Kiprono",
+            "birth_date": "1997-10-05",
+            "baptism_date": "1998-11-12",
+            "confirmation_date": "2014-05-23",
+            "marriage_details": {
+                "status": "Engaged",
+                "spouse_name": "Nancy Chebet",
+                "marriage_date": "2025-12-10"
+            },
+            "contact": {
+                "phone": "+254705667788",
+                "email": "josephatkiprono@example.com"
+            },
+            "address": "Nakuru, Kenya"
+        },
+        {
+            "id": 10,
+            "name": "Grace Waithera",
+            "birth_date": "1991-03-21",
+            "baptism_date": "1992-04-29",
+            "confirmation_date": "2006-09-18",
+            "marriage_details": {
+                "status": "Single",
+                "spouse_name": null,
+                "marriage_date": null
+            },
+            "contact": {
+                "phone": "+254718223344",
+                "email": "gracewaithera@example.com"
+            },
+            "address": "Nyahururu, Kenya"
+        }
+    ]
+}
