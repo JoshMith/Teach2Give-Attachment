@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple E-commerce</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: #f4f4f4;
+        text-align: center;
+      }
+
+      h1 {
+        color: #333;
+      }
+
+      /* Container for all events */
+      #product-list {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 15px;
+        padding: 20px;
+      }
+
+      /* Individual event box */
+      .event {
+        background: white;
+        padding: 15px;
+        width: 250px;
+        max-width: 400px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease-in-out;
+      }
+
+      .event:hover {
+        transform: scale(1.05);
+      }
+
+      /* Event title */
+      .event h3 {
+        margin: 0;
+        font-size: 1.5rem;
+        color: #007bff;
+      }
+
+      /* Event details */
+      .event p {
+        margin: 5px 0;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Products</h1>
+    <button id="filterBtn">Filter by New York</button>
+    <div id="product-list"></div>
+    <script type="module" src="./dist/index.js"></script>
+  </body>
+</html>

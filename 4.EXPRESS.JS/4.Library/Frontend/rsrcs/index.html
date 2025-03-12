@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book List</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="header-container">
+      <h1>Book List</h1>
+      <div class="cart-icon-container">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span class="cart-count">0</span>
+      </div>
+    </div>
+    <div class="filters">
+      <label for="search">Genre:</label>
+      <select id="search">
+        <option value="">Select a genre</option>
+        <option value="Dystopian">Dystopian</option>
+        <option value="Fiction">Fiction</option>
+        <option value="Romance">Romance</option>
+        <option value="Adventure">Adventure</option>
+        <option value="Historical Fiction">Historical Fiction</option>
+      </select>
+
+      <label for="year">Published After:</label>
+      <input type="number" id="year" placeholder="Year (e.g., 1950)" />
+
+      <label for="minPages">Min Pages:</label>
+      <input type="number" id="minPages" placeholder="Min Page Count" />
+
+      <label for="sort">Sort by:</label>
+      <select id="sort">
+        <option value="">Default</option>
+        <option value="year">Year</option>
+        <option value="pages">Page Count</option>
+      </select>
+
+      <button id="sortOrderBtn">Toggle Sort Order</button>
+      <button id="searchBtn">Search</button>
+
+      <div id="post-form-container">
+        <button type="button" id="toggle-form-button">Add Book</button>
+        <form id="post-form" action="/api/books" method="post">
+            <input type="number" name="id" placeholder="Id" />
+            <input type="text" name="title" placeholder="Title" />
+            <input type="text" name="author" placeholder="Author" />
+            <input type="text" name="genre" placeholder="Genre" />
+            <input type="number" name="year" placeholder="Year" />
+            <input type="number" name="pages" placeholder="Pages" />
+            <input type="text" name="publisher" placeholder="Publisher" />
+            <textarea name="description" placeholder="Description"></textarea>
+            <input type="text" name="image" placeholder="Image URL" />
+            <input type="number" name="price" placeholder="Price" step="0.01" />
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    </div>
+
+    <div id="product-list"></div>
+    <div id="cart-div"></div>
+    <div class="cart-overlay"></div>
+    <div class="cart-div">
+      <div class="cart-header">
+        <h2>Your Cart</h2>
+        <button class="close-cart">
+          <i class="fa-solid fa-times"></i>
+        </button>
+      </div>
+      <div class="cart-items">
+        <!-- Cart items will be dynamically added here -->
+      </div>
+      <div class="cart-footer">
+        <div class="cart-total">
+          <span>Total:</span>
+          <span>$0.00</span>
+        </div>
+        <button class="checkout-btn">Proceed to Checkout</button>
+      </div>
+    </div>
+    <script type="module" src="/Teach2Give Attachment/4.EXPRESS.JS/4.Library/Frontend/src/server2.ts"></script>
+  </body>
+</html>
